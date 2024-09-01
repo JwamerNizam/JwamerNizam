@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body and Layout */
+body {
+  background-color: #F4EEFF;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header and Form Styling */
+h1 {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: #000000;
+  margin-bottom: 20px;
+  
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Form Container */
+form {
+  background: #DCD6F7;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Form Elements */
+label {
+  display: block;
+  font-size: 1.1em;
+  margin: 10px 0 5px;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+button {
+  background: #A6B1E1;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #A6B1E1;
+}
+
+button.reload-button {
+  background: #A6B1E1;
+  margin-top: 10px;
+}
+
+button.reload-button:hover {
+  background: #A6B1E1;
+}
+
+/* Result Div */
+#result {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 20px;
+}
+
+.footer {
+  background: #424874;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 0.9em;
+}
