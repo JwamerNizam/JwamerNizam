@@ -21,7 +21,7 @@ app.post('/Yalla_Mama', (req, res) => {
 
     // Write names to a file
     const namesToWrite = `Name1: ${name1}, Name2: ${name2}\n`;
-    fs.appendFile('.C:\\Users\\jwame\\OneDrive\\Desktop\\LoveCalculator\\data\\names.txt', namesToWrite, (err) => {
+    fs.appendFile('.C:\\Users\\jwame\\OneDrive\\Desktop\\LoveCalculator\\data\\Names.txt', namesToWrite, (err) => {
         if (err) {
             console.error('Error writing to file', err);
             return res.status(500).send('Server error');
